@@ -1,0 +1,4 @@
+body { font-family: Arial; padding: 20px; }
+textarea { width: 300px; height: 100px; }
+button { margin-top: 10px; padding: 10px; }
+#result { font-weight: bold; margin-top: 10px; }

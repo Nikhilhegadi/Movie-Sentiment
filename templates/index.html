@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Review Sentiment</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Movie Review Sentiment Analyzer</h1>
+  <textarea id="review" placeholder="Type your review..."></textarea><br>
+  <button onclick="sendReview()">Analyze</button>
+  <p id="result"></p>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
